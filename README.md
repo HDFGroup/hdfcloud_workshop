@@ -68,6 +68,12 @@ You'll be given your username and password at the start of the workshop.
 Now you should be able to run hsinfo without any arguments and have it
 report your username.
 
+### Create a workshop folder
+
+Create a folder on the server for data files you will create:
+
+    hstouch -v /home/<your username>/workshop/
+
 
 ## Launch notebook
 
