@@ -14,7 +14,7 @@ Clone this repository
 
     git clone https://github.com/HDFGroup/hdfcloud_workshop
 
-If you don't have git installed, you get it here:  https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
+If you don't have git installed, you can get it here:  https://git-scm.com/book/en/v2/Getting-Started-Installing-Git
 
 ### Install Python if you don't have it already
 
@@ -30,11 +30,13 @@ If you don't have Python installed, go to: https://www.python.org/downloads/.
 
 If you don't have pip, get the installer srcript:
 
-    get https://bootstrap.pypa.io/get-pip.py
+    wget https://bootstrap.pypa.io/get-pip.py
 
 Then run the script:
 
     python get-pip.py    
+
+If you run into problems, see: https://pip.pypa.io/en/stable/installing/.
 
 ### Install the necessary packages
 
@@ -77,8 +79,8 @@ From the notebook directory
 ## Links
 
 *  Reference
-    *  [Docs](http://docs.h5py.org/en/latest/index.html)
-    *  [Code](https://github.com/HDFGroup/h5pyd)
-    *  [Docs](http://h5serv.readthedocs.io/en/latest/index.html)
+    *  [Docs  h5py](http://docs.h5py.org/en/latest/index.html)
+    *  [Code h5pyd](https://github.com/HDFGroup/h5pyd)
+    *  [Docs REST API](http://h5serv.readthedocs.io/en/latest/index.html)
      
 
