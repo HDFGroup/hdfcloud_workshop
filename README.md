@@ -10,6 +10,13 @@ This workshop covers using the service in three ways:
 
 ## Prepare
 
+### Get HDFCloud credentials
+
+Get your username, password, and server endpoint from course instructor or by signing up
+for a HDFCloud account here: https://www.hdfgroup.org/solutions/hdf-cloud/. 
+
+### Get workshop code
+
 Clone this repository
 
     git clone https://github.com/HDFGroup/hdfcloud_workshop
@@ -51,22 +58,22 @@ Or if you are using Anaconda:
     source activate hsds
     pip install h5pyd
 
+### Configure HDF Cloud client
+
+Run:
+
+    hsconfigure
+
+and input username, password and endpoint.  The information gathered will be saved to the file:
+.hscfg in your home directory.
+
 ### Verify the installation via running hsinfo
 
-    hsinfo -e http://52.25.101.15:5101
+Run:
 
-### Create a .hscfg file in your home directory
+    hsinfo 
 
-The file should contain the following lines:
-
-    hs_endpoint = http://52.25.101.15:5101
-    hs_username = <your username>
-    hs_password = <your password>
-
-You'll be given your username and password at the start of the workshop.
-
-Now you should be able to run hsinfo without any arguments and have it
-report your username.
+This should return that the server is ready and your username/password is valid.
 
 ### Create a workshop folder
 
